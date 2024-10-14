@@ -3,23 +3,31 @@
 // Hasil Yang Diharapkan : Perkenalkan nama saya Naulan, umur saya 19, domisili saya Malang
 
 // -------- Tulis Kode Kamu Disini (Nomor 1) --------
+let nama = "Axl";
+let umur = 21;
+let domisili = "Malang";
+
+console.log(
+  "Perkenalkan nama saya " +
+    nama +
+    ", umur saya " +
+    umur +
+    ", domisili saya " +
+    domisili
+);
 
 // -------- ------ --------
 
-// Soal 02 :
+// Soal 02 & 03 :
 // Buatlah variabel panjang dengan nilai 5 dan variabel lebar dengan nilai 7 untuk menentukan luas persegi panjang. Dan buatlah variabel luasPersegiPanjang untuk menyimpan hasil dari rumus persegi panjang.
 // Hasil Yang Diharapkan : 35
-
 // -------- Tulis Kode Kamu Disini (Nomor 2) --------
+let panjang = 5;
+let lebar = 7;
 
-// -------- ------ --------
+let luasPersegiPanjang = panjang * lebar;
 
-// Soal 03 :
-// Buatlah variabel panjang dengan nilai 5 dan variabel lebar dengan nilai 7 untuk menentukan luas persegi panjang. Dan buatlah variabel luasPersegiPanjang untuk menyimpan hasil dari rumus persegi panjang.
-// Hasil Yang Diharapkan : 35
-
-// -------- Tulis Kode Kamu Disini (Nomor 3) --------
-
+console.log("Luas Persegi Panjang adalah " + luasPersegiPanjang);
 // -------- ------ --------
 
 // Soal 04 :
@@ -27,7 +35,12 @@
 // Hasil Yang Diharapkan : Dibutuhkan waktu 4 menit untuk menyala sebanyak 48 kali.
 
 // -------- Tulis Kode Kamu Disini (Nomor 4) --------
-
+let timeOn = 5;
+let On = 48;
+let minutes = (timeOn * On) / 60;
+console.log(
+  "Dibutuhkan waktu " + minutes + " menit untuk menyala sebanyak 48 kali."
+);
 // -------- ------ --------
 
 // Soal 05 :
@@ -35,7 +48,11 @@
 // Hasil Yang Diharapkan : Total belanja saya adalah 150000.
 
 // -------- Tulis Kode Kamu Disini (Nomor 5) --------
+let hargaBarang = 10000;
+let jmlBarang = 15;
+let totalBiaya = hargaBarang * jmlBarang;
 
+console.log("Total Pembelian saya adalah " + totalBiaya);
 // -------- ------ --------
 
 // Soal 06 :
@@ -43,7 +60,10 @@
 // Hasil Yang Diharapkan : Keliling lingkaran adalah 62.8
 
 // -------- Tulis Kode Kamu Disini (Nomor 6) --------
+let jariJari = 10;
+let keliling = 2 * Math.PI * jariJari;
 
+console.log("keliling lingkaran adalah " + keliling);
 // -------- ------ --------
 
 // Soal 07 :
@@ -51,7 +71,12 @@
 // Hasil Yang Diharapkan : Angka 7 adalah ganjil
 
 // -------- Tulis Kode Kamu Disini (Nomor 7) --------
-
+let angka = 7;
+if (angka % 2 === 0) {
+  console.log("Angka " + angka + " adalah genap");
+} else {
+  console.log("Angka " + angka + " adalah ganjil");
+}
 // -------- ------ --------
 
 // Soal 08 :
@@ -59,5 +84,11 @@
 // Hasil Yang Diharapkan : Rata-rata nilai adalah 80
 
 // -------- Tulis Kode Kamu Disini (Nomor 8) --------
+let nilai1 = 60;
+let nilai2 = 90;
+let nilai3 = 100;
 
+let mean = (nilai1 + nilai2 + nilai3) / 3;
+
+console.log("Rata-rata nilai adalah " + mean);
 // -------- ------ --------
